@@ -20,6 +20,7 @@ public class Thread {
     @ManyToOne(optional = false, fetch = FetchType.LAZY)
     private Board board;
 
+    @OrderBy("createdAt")
     @OneToMany(mappedBy = "thread", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Post> posts;
 
