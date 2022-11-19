@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: dev
+    password: devpwd
+    url: jdbc:postgresql://${DB_HOST:localhost}:5432/nxchannel
+

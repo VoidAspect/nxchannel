@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  nxchannel_db:
+    image: postgres:latest
+    container_name: message_db
+    restart: always
+    environment:
+      POSTGRES_USER: dev
+      POSTGRES_PASSWORD: devpwd
+      POSTGRES_DB: nxchannel
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  db-data:
+    driver: local
