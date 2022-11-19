@@ -1,4 +1,4 @@
-package com.alevel.java.nxchannel.nxchannelapi.model;
+package com.alevel.java.nxchannel.api.model;
 
 import javax.persistence.*;
 import java.util.UUID;

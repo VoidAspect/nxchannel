@@ -1,4 +1,4 @@
-package com.alevel.java.nxchannel.nxchannelweb;
+package com.alevel.java.nxchannel.web;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

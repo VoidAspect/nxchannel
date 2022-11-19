@@ -1,4 +1,4 @@
-package com.alevel.java.nxchannel.nxchannelapi;
+package com.alevel.java.nxchannel.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

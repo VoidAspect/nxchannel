@@ -1,4 +1,4 @@
-package com.alevel.java.nxchannel.nxchannelapi.model;
+package com.alevel.java.nxchannel.api.model;
 
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
